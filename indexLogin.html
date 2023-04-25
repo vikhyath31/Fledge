@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <body class="bg-light">
+      
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleLogin.css" />
+    <title>LoginForm</title>
+  </head>
+  <body>
+    <form method="post"  action="cal.html"></form>
+    <div class="container">
+      <h1>Login</h1>
+      <form>
+        <div class="form-control">
+          <input type="text" required />
+          <label>Email</label>
+        </div>
+        <div class="form-control">
+          <input type="password" required />
+          <label>Password</label>
+        </div>
+        <button onclick="goToNextPage()">Login</button>
+        <script>
+          function goToNextPage(){
+            window.location.href="cal.html";
+          }
+        </script>
+        <p class="text">Don't have an account? <a href="">Register</a></p>
+      </form>
+
+    </div>
+    <script src="scriptLogin.js"></script>
+  </body>
+</html>

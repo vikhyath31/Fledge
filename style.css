@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+select, input[type=number] {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+output {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: bold;
+}body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+select, input[type=number] {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+output {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: bold;
+}

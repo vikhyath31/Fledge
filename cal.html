@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Power Consumption Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body bgcolor='lightskyblue'>
+    <h1>Power Consumption Calculator</h1>
+      <form method="post"  action="#">
+        Name:<br>
+        <input type = "text" name = "Name"/>
+        <br>
+        No of Family Members: <br> 
+       <input type = "text" name = "No of Family Members"/>
+<br> 
+
+        <br>
+      <label for="appliance">Appliance:</label>
+      <br>
+      <select multiple id="appliance" name="appliance">
+        <option value="500">Washing Machine</option>
+                <option value="20">Internet Router</option>
+                <option value="3000">Vacuum</option>
+                <option value="2500">Dish Washer</option>
+                <option value="1000">Boiler</option>
+                <option value="130.8">Air Purifier</option>
+                <option value="80">Sound System</option>
+                <option value="50">3-D Printer</option>
+                <option value="1500">COffee Maker</option>
+                <option value="780">Refrigerator</option>
+                <option value="3.14">Radiator</option>
+                <option value="483.24">Dehumidifier</option>
+                <option value="1200">Microwave Oven</option>
+                <option value="70">Laptop</option>
+                <option value="120">Television</option>
+                <option value="400">Solar Panel</option>
+                <option value="150">Screen</option>
+                <option value="45">Printer</option>
+                <option value="1000">Hair Dryer</option>
+                <option value="335">Freezer</option>
+                <option value="1500">Toaster</option>
+                <option value="1000">Blender</option>
+                <option value="7200">Food Processor</option>
+                <option value="1000">Juicer</option>
+                <option value="100">Sewing Machine</option>
+                <option value="25">Water Purifier</option>
+                <option value="1000">Iron Box</option>
+                <option value="70">Personal Computer</option>
+                <option value="1500">Kettle</option>
+                <option value="750">Mixer Grinder</option>
+                <option value="1500">Steam Cleaner</option>
+                <option value="1500">Air Conditioner</option>
+              
+      </select>
+      <br>
+      <p>Hold down the Ctrl (windows) or Command (Mac) button to select multiple options.</p>
+    
+      
+      <br>
+      <button type="button" onclick="calculateTotal()">Calculate</button>
+      <br>
+      <label for="result">Estimated daily power consumption:</label>
+      <output id="result" name="result"></output>
+    </form>
+    <script src="calculate.js"></script>
+  </body>
+</html>
